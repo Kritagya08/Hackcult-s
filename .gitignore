@@ -11,3 +11,25 @@ __pycache__/
 *.log
 *.sql
 *.dump
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.backup
+*.tsbuildinfo
+backups/
+backend/backups/
+
+# Preserved local planning/audit artifacts from the retired GridTwin concept
+/Claude_Technical_Integration_Audit.md
+/Gemini_Final_Corrected_Frontend_Plan.md
+/docs/API_CONTRACT.md
+/docs/ARCHITECTURE.md
+/docs/DATABASE_SCHEMA.md
+/docs/PROJECT_SPEC.md
+/docs/SPRINT_PLAN.md
+/docs/UI_SPEC.md
+
+# Unrelated local artifacts retained outside the submission
+/77862d8e-4b33-48ea-8778-942048400079.pdf
+/setup_db.py

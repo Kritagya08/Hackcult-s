@@ -1,6 +1,12 @@
 # WattWise LiFE | HC26-GEDA01 | Sprint MVP Contract v1.0
 
-Status: implementation contract for the October 27–29, 2026 HackCult sprint. Supersedes the prior campus WattWise AI feature/API schema for the new Mission LiFE citizen-engagement problem statement. **Do not modify the old frozen campus documents**; retain them as planning history, and treat this file as authoritative for the new app. All application code must be developed within the organizer-authorized sprint.
+> **Historical Phase 1 contract.** This file records the original four-table,
+> 11-endpoint baseline. The implemented Phase 2 system has five domain tables
+> and 16 endpoints. Use the root `README.md`, `backend/app/main.py`,
+> `backend/app/models.py`, and `docs/MISSION_LIFE_ARCHITECTURE.md` as the current
+> implementation references.
+
+Status: archived implementation contract for the October 27–29, 2026 HackCult sprint. It superseded the prior campus WattWise AI feature/API schema when the Mission LiFE citizen-engagement work began. It is retained only as Phase 1 history and is not the current implementation contract.
 
 ## Purpose and constraints
 Citizen-first, responsive web app for household electricity awareness and Mission LiFE actions. Four screens: (1) My Footprint, (2) Green Actions, (3) Community Impact, (4) Solar Explorer. Dynamic data, no fake analytics or success states. React + TypeScript + Vite + Recharts + plain CSS; FastAPI + SQLAlchemy + Alembic + PostgreSQL 17. Native Windows, Python 3.13. No Docker, external LLM, login, maps, weather API, payment, or marketplace for Phase 1. No third-party premade full app/templates.
